@@ -1,0 +1,36 @@
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232f3e;
+  height: 40px;
+  padding: 0 20px;
+  color: white;
+}
+
+/* Left icon and All link */
+.panel-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Right side equal spacing using flex-grow */
+.panel-right {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  margin-left: 40px;
+}
+
+/* Link styles */
+.panel a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.panel a:hover {
+  color: #febd68;
+}
